@@ -3388,3 +3388,125 @@ Script Stack (0 frames):
 [2023.12.12-02.52.49:784][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.12.12-02.52.49:791][449]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
 [2023.12.12-02.52.49:821][450]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2023.12.12-02.56.00:579][151]BlueprintLog: New page: Compile LevelOne
+[2023.12.12-02.56.00:668][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2023.12.12-02.56.01:214][171]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2023.12.12-02.56.01:287][171]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Saved/LevelOne17888CD94B26CD9BB2F5FBB325CE99E4.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Content/Maps/LevelOne.umap'
+[2023.12.12-02.56.01:308][171]LogFileHelpers: Saving map 'LevelOne' took 0.131
+[2023.12.12-02.56.01:326][171]AssetCheck: New page: Asset Save: LevelOne
+[2023.12.12-02.56.01:328][171]LogContentValidation: Display: Validating World /Game/Maps/LevelOne.LevelOne
+[2023.12.12-02.56.03:619][300]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.12-02.56.03:627][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.12-02.56.03:628][300]PIE: New page: PIE session: LevelOne (Dec 11, 2023, 2:56:03 PM)
+[2023.12.12-02.56.03:648][300]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2023.12.12-02.56.03:660][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010774s)
+[2023.12.12-02.56.03:661][300]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.12-02.56.03:661][300]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2023.12.12-02.56.03:661][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.012303s)
+[2023.12.12-02.56.03:699][300]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2023.12.12-02.56.03:701][300]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.12-02.56.03:701][300]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.12-02.56.03:701][300]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.12-02.56.03:701][300]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.12-02.56.03:701][300]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.12-02.56.03:701][300]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.12-02.56.03:705][300]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.12-02.56.03:705][300]LogAudioMixer: Display: 1: FrontRight
+[2023.12.12-02.56.03:718][300]LogAudioMixer: Display: Using Audio Device Speakers (4- Jeecoo M30)
+[2023.12.12-02.56.03:718][300]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.12-02.56.03:718][300]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.12-02.56.03:718][300]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.12-02.56.03:718][300]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.12-02.56.03:720][300]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.12-02.56.03:720][300]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.12-02.56.03:721][300]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.12-02.56.03:721][300]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.12-02.56.03:721][300]LogInit: FAudioDevice initialized.
+[2023.12.12-02.56.03:721][300]LogAudio: Display: Audio Device (ID: 42) registered with world 'LevelOne'.
+[2023.12.12-02.56.03:734][300]LogLoad: Game class is 'bpGameMode_C'
+[2023.12.12-02.56.03:735][300]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2023.12.11-20.56.03
+[2023.12.12-02.56.03:735][300]LogWorld: Bringing up level for play took: 0.000777
+[2023.12.12-02.56.03:735][300]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2023.12.12-02.56.03:740][300]PIE: Server logged in
+[2023.12.12-02.56.03:741][300]PIE: Play in editor total start time 0.116 seconds.
+[2023.12.12-02.56.21:351][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.12-02.56.21:351][353]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LevelOne
+[2023.12.12-02.56.21:351][353]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.12-02.56.21:351][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.12-02.56.21:362][353]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.12-02.56.21:368][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.12-02.56.21:402][353]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.12-02.56.21:403][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.12-02.56.21:404][353]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.12-02.56.21:410][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.12.12-02.56.21:441][354]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.12.12-02.57.37:544][746]BlueprintLog: New page: Compile LevelOne
+[2023.12.12-02.57.37:622][746]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2023.12.12-02.57.38:036][760]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2023.12.12-02.57.38:110][760]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Saved/LevelOne297A07294692FA34BE04639102FC7666.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Content/Maps/LevelOne.umap'
+[2023.12.12-02.57.38:127][760]LogFileHelpers: Saving map 'LevelOne' took 0.127
+[2023.12.12-02.57.38:146][760]AssetCheck: New page: Asset Save: LevelOne
+[2023.12.12-02.57.38:146][760]LogContentValidation: Display: Validating World /Game/Maps/LevelOne.LevelOne
+[2023.12.12-02.57.39:868][856]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.12-02.57.39:878][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.12-02.57.39:878][856]PIE: New page: PIE session: LevelOne (Dec 11, 2023, 2:57:39 PM)
+[2023.12.12-02.57.39:878][856]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_LevelOne
+[2023.12.12-02.57.39:889][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011560s)
+[2023.12.12-02.57.39:890][856]LogAIModule: Creating AISystem for world LevelOne
+[2023.12.12-02.57.39:891][856]LogPlayLevel: PIE: World Init took: (0.001288s)
+[2023.12.12-02.57.39:891][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/LevelOne.LevelOne to /Game/Maps/UEDPIE_0_LevelOne.LevelOne (0.013015s)
+[2023.12.12-02.57.39:926][856]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2023.12.12-02.57.39:926][856]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.12-02.57.39:926][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.12-02.57.39:926][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.12-02.57.39:926][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.12-02.57.39:926][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.12-02.57.39:928][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.12-02.57.39:928][856]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.12-02.57.39:930][856]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.12-02.57.39:931][856]LogAudioMixer: Display: 1: FrontRight
+[2023.12.12-02.57.39:942][856]LogAudioMixer: Display: Using Audio Device Speakers (4- Jeecoo M30)
+[2023.12.12-02.57.39:943][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.12-02.57.39:943][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.12-02.57.39:943][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.12-02.57.39:944][856]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.12-02.57.39:944][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.12-02.57.39:944][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.12-02.57.39:945][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.12-02.57.39:945][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.12-02.57.39:945][856]LogInit: FAudioDevice initialized.
+[2023.12.12-02.57.39:945][856]LogAudio: Display: Audio Device (ID: 43) registered with world 'LevelOne'.
+[2023.12.12-02.57.39:956][856]LogLoad: Game class is 'bpGameMode_C'
+[2023.12.12-02.57.39:957][856]LogWorld: Bringing World /Game/Maps/UEDPIE_0_LevelOne.LevelOne up for play (max tick rate 60) at 2023.12.11-20.57.39
+[2023.12.12-02.57.39:957][856]LogWorld: Bringing up level for play took: 0.000780
+[2023.12.12-02.57.39:957][856]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2023.12.12-02.57.39:962][856]PIE: Server logged in
+[2023.12.12-02.57.39:962][856]PIE: Play in editor total start time 0.088 seconds.
+[2023.12.12-02.57.46:220][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.12-02.57.46:220][228]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_LevelOne
+[2023.12.12-02.57.46:220][228]LogWorld: UWorld::CleanupWorld for LevelOne, bSessionEnded=true, bCleanupResources=true
+[2023.12.12-02.57.46:221][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.12-02.57.46:234][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.12-02.57.46:242][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.12-02.57.46:274][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.12-02.57.46:275][228]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.12-02.57.46:276][228]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.12-02.57.46:283][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2023.12.12-02.57.46:312][229]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.12.12-03.07.44:435][443]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2023.12.12-03.07.44:515][443]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Saved/LevelOne_Auto44CFE25C840FACB99E8EEB6A9D73B6F47.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/DuckHuntAO/Duck-Hunt-AO/DuckHuntAO/Saved/Autosaves/Game/Maps/LevelOne_Auto4.umap'
+[2023.12.12-03.07.44:518][443]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/LevelOne' took 0.123
+[2023.12.12-03.07.44:518][443]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.123
